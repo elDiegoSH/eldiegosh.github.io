@@ -28,7 +28,7 @@ main {
     justify-content: flex-end;
     align-items: center;
 	padding: 40px 0;
-	background-image: linear-gradient(-25deg, #f4eeff 50%, #feb72b 50%);
+	background-image: linear-gradient(-45deg, #f4eeff 50%, #548CA8 50%);
 }
 
 main .contenedor-img {
