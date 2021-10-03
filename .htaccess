@@ -1,0 +1,11 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+<IfModule mod_rewrite.c>
+RewriteCond %{HTTP_HOST} ^diegosh\.com$ [NC]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)$ http://www.diegosh.com/$1 [R=301,L]
+</IfModule>
+
+ErrorDocument 404 /paginadeerror/
