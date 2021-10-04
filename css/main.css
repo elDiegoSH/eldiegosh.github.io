@@ -1,5 +1,6 @@
 * {
 	font-family: 'Montserrat', sans-serif;
+  color:#334257;
 }
 
 .d-none{display:none};
@@ -28,7 +29,7 @@ main {
     justify-content: flex-end;
     align-items: center;
 	padding: 40px 0;
-	background-image: linear-gradient(-45deg, #f4eeff 50%, #548CA8 50%);
+	background-image: linear-gradient(-25deg, #f4eeff 50%, #548CA8 50%);
 }
 
 main .contenedor-img {
@@ -43,9 +44,15 @@ main .contenedor-img {
 
 .contenedor-texto .escritura {
      font-weight: bold;
-     color: #028fcc;
+     color: #334257;
      font-style: normal;
 }
+
+.azul-f {
+  color:#334257;
+  font-size: 16px !important;
+}
+
 .contenedor-texto p {
      margin-bottom: 30px;
 	 line-height: 36px;
@@ -64,8 +71,20 @@ main .contenedor-img {
 .btn-link:hover,
 .btn-link.activo {
 	color: #fff;
-	background: #feb72b;
+	background: #334257;
 	text-decoration: none;
+}
+
+.blanco {
+  color: #fff;
+}
+
+.azul-c{
+  color: #548CA8;
+}
+
+.count div h3 {
+  color:#548CA8 !important;
 }
 
 @media screen and (max-width: 915px) {
@@ -107,12 +126,14 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 14.5px;
   line-height: 24px;
-  color: #666;
+  color:#334257;
+  /* color: #666; */
   background-color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #333;
+  /* color: #333; */
+  color:#334257;
 }
 
 h2 {
@@ -386,7 +407,7 @@ section {
 }
 
 .our-services .col-sm-4:hover .service-icon {
-  background-color: #333;
+  background-color: #334257;
 }
 
 .our-services .col-sm-4 {
